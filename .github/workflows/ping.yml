@@ -3,7 +3,7 @@ name: Keep Render Awake
 # Allow manual runs for testing + scheduled runs
 on:
   schedule:
-    - cron: "*/2 * * * *"   # every 13 minutes (cron is in UTC)
+    - cron: "*/5 * * * *"   # every 13 minutes (cron is in UTC)
   workflow_dispatch:         # lets you run it manually from GitHub UI
 
 jobs:
